@@ -23,4 +23,4 @@ ONBUILD COPY src/ /var/www/html
 
 EXPOSE 8080
 
-CMD [sleep 1000]
+CMD /usr/sbin/httpd -DFOREGROUND
