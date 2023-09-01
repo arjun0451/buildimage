@@ -1,4 +1,5 @@
-FROM   registry.access.redhat.com/ubi8/ubi:8.0
+#FROM   registry.access.redhat.com/ubi8/ubi:8.0
+FROM quay.io/redhattraining/httpd-parent
 MAINTAINER   Red Hat Training <training@redhat.com>
 
 # command line options to pass to the JVM
